@@ -333,7 +333,7 @@ def main():
         "ai4i2020" : "data/ai4i2020.db",
         "manufacturing_6G_dataset" : "data/manufacturing_6G_dataset.db",
     }
-    QUESTION_FILE = r"..\codes\my_QA_dataset.xlsx"
+    QUESTION_FILE = r"..\QA\my_QA_dataset.xlsx"
     DATA_FILES_INFOS ={
         "ai4i2020":
     r"""
