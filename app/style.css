@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #e0e3e7 0%, #b0bec5 100%) !important;
+}
+.main, .stApp {
+    background: linear-gradient(135deg, #e0e3e7 0%, #b0bec5 100%) !important;
+}
+.block-container {
+    background: rgba(255,255,255,0.95) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(80,80,80,0.08);
+    padding: 2.5rem 3.5rem 2.5rem 3.5rem !important;
+    max-width: 1600px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', 'Segoe UI', Arial, sans-serif !important;
+    color: #263238 !important;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.stTabs [data-baseweb="tab"] {
+    background: #eceff1 !important;
+    border-radius: 8px 8px 0 0 !important;
+    border-bottom: 3px solid #90a4ae !important;
+    color: #263238 !important;
+    font-size: 1.1rem !important;
+    font-family: 'Roboto Mono', monospace !important;
+    padding: 0.75rem 2.5rem !important;
+}
+.stTabs [aria-selected="true"] {
+    background: #b0bec5 !important;
+    border-bottom: 3px solid #ffb300 !important;
+    color: #212121 !important;
+}
+.stButton>button {
+    background: linear-gradient(90deg, #ffb300 0%, #ff8f00 100%) !important;
+    color: #263238 !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(80,80,80,0.08);
+    padding: 0.75rem 2.5rem !important;
+    font-size: 1.1rem !important;
+}
+.stButton>button:hover {
+    background: linear-gradient(90deg, #ff8f00 0%, #ffb300 100%) !important;
+    color: #fff !important;
+}
+.stDataFrame, .stTable {
+    background: #f5f5f5 !important;
+    border-radius: 8px !important;
+    border: 1px solid #b0bec5 !important;
+    font-size: 1.05rem !important;
+} 
