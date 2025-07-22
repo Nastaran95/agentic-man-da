@@ -1,4 +1,4 @@
-# inspired by https://github.com/crazycloud/data-analysis-llm-agent/blob/main/src/data-analysis-llm-agent/tools.py
+# Reference: https://github.com/crazycloud/data-analysis-llm-agent/blob/main/src/data-analysis-llm-agent
 
 import psycopg2
 import sqlite3
