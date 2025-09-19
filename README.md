@@ -2,6 +2,15 @@
 
 A modular agentic AI system for natural language-driven data analysis in manufacturing using LLMs and LangGraph.
 
+> **Repository for the accepted paper:**  
+> **Title:** Agentic Data Analysis for Intelligent Manufacturing: Benchmark-Driven Evaluation of Agentic vs. Direct LLM Approaches  
+> **Conference:** CIRPe 2025
+
+**Abstract:**  
+Recently, agentic artificial Intelligence (AI) has gained strong attention, showing promising results in domains such as quality control, knowledge management, and cost optimization. Yet, its application within manufacturing remains largely underexplored. Moreover, data analysis is a critical step across many manufacturing processes, but interpreting data often depends heavily on the expertise of technical professionals. To address this gap, this paper introduces a lightweight, agentic framework that enables non-expert users to interact with manufacturing datasets through natural language. The system integrates language models (LLMs) with modular tool orchestration to support data querying, analysis, and visualization via conversational interfaces. The system is evaluated using two representative manufacturing datasets and a benchmark of structured natural language queries inspired by TableBench. Comparative results across multiple LLMs reveal that our agentic approach outperforms direct prompting methods in both accuracy and interpretability. These findings demonstrate the feasibility and effectiveness of deploying agentic AI systems for real-world industrial data analysis and point toward more accessible and scalable AI-driven manufacturing solutions.
+
+[Read the paper (PDF)](PROCIR_CIRPe_2025_revised_final.pdf)
+
 ## Directory Structure
 
 - **app/**: Main application code (Streamlit UI, agent logic, tools, utils, etc.)
@@ -35,3 +44,15 @@ A modular agentic AI system for natural language-driven data analysis in manufac
 3. Then you can select/upload these files.
 4. You can also use your own dataset. 
 
+## 📖 Citing This Work
+
+If you use this repository or build upon our work, please cite the following paper:
+
+```bibtex
+@inproceedings{moradzadeh2025agentic,
+  title={Agentic Data Analysis for Intelligent Manufacturing: Benchmark-Driven Evaluation of Agentic vs. Direct LLM Approaches},
+  author={Moradzadeh Farid, Nastaran and Taghizadeh, Alireza and Shafiee, Sara},
+  booktitle={Proceedings of the 13th CIRP Global Web Conference (CIRPe 2025)},
+  year={2025}
+}
+```
